@@ -19,10 +19,10 @@ public class Mainexe4 {
 		quartier.ajouterLivre(ndp);
 
 		System.out.println(hugo);
-		hugo.getLivres().forEach(l -> System.out.println("  • " + l));
+		hugo.getLivres().forEach(l -> System.out.println("  -" + l));
 
 		System.out.println(orwell);
-		orwell.getLivres().forEach(l -> System.out.println("  • " + l));
+		orwell.getLivres().forEach(l -> System.out.println("  - " + l));
 
 		System.out.println(centrale);
 		centrale.getCollection().forEach(l -> System.out.println("  – " + l.getTitre() + " (id=" + l.getId() + ")"));
